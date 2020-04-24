@@ -1,6 +1,7 @@
 /**
  * Registros de novas ONGs
  */
+const generateUniqueId = require('../utils/generateUniqueId');
 const crypto = require('crypto');
 const connection = require('../database/connection');  
 
@@ -17,7 +18,7 @@ module.exports={
     async create(request,response){
         const {name, email, whatsapp, city, uf } = request.body;
 
-    const id = crypto.randomBytes(4).toString('HEX');      //cria elementos no BD
+    const id = generateUniqueId() ;    //cria elementos no BD
 
     await connection('ongs').insert({
         id,
