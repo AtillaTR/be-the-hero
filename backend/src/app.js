@@ -10,7 +10,7 @@ app.use(express.json());//falando para o express ir na requisiscao e transformar
 app.use(routes); 
 app.use(errors());
 
-app.listen(3333);//porta padrao node 
+module.exports=app; 
 
 
 /**
