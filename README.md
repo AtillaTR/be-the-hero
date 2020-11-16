@@ -4,9 +4,7 @@
     <img  title="#logo" src=".github/logo.svg" width="200px" />
 </h1>
 
-<h4 align="center">
-  🚀 Semana OmniStack 11.0
-</h4>
+
 
 <p align="center">
  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000" alt="PRs welcome!" />
