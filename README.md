@@ -45,7 +45,6 @@ O BeTheHero é um projeto que visa conectar pessoas que desejam fazer contribui�
 - Use o comando yarn start no terminal para iniciar a API
 
 
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
 
 ---
